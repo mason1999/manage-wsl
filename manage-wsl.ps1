@@ -1,6 +1,6 @@
 param(
     [string]$target_distribution = "Ubuntu-22.04",
-    [string]$wsl_instances_path = "C:\Users\testuser\OneDrive\Desktop\wsl-instances",
+    [string]$wsl_instances_path = "C:\Users\mason\OneDrive\Desktop\wsl-instances",
     [string]$instance_name = "dev-environment",
 
     [Parameter(ParameterSetName = "Create")]
