@@ -58,5 +58,5 @@ For example:
 and:
 
 ```
-.\manage-wsl.ps1 -instance_name dev1 -wsl_instance_path C:\Users\mason\OneDrive\Desktop\wsl-instances -delete
+.\manage-wsl.ps1 -instance_name clean-ubuntu-22.04 -wsl_instance_path C:\Users\mason\OneDrive\Desktop\wsl-instances -delete
 ```
