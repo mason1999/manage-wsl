@@ -3,7 +3,7 @@
 Ensure that you have a clean installation of the verison of linux you want to use. To do this, do something like:
 
 ```
-wsl --install Ubuntu-22.04
+wsl --install --distribution Ubuntu-22.04
 ```
 
 # Summary of usage
