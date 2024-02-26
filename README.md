@@ -19,7 +19,7 @@ To create a new environment, the general form of the command is:
 For example, to create a new development environment from an existing `Ubuntu-22.04` image:
 
 ```
-.\manage-wsl.ps1 -target_distribution Ubuntu-22.04 -instance_name clean-ubuntu-22.04 -wsl_instances_path C:\Users\mason\OneDrive\Desktop\wsl-instances -create
+.\manage-wsl.ps1 -target_distribution Ubuntu-22.04 -instance_name clean-ubuntu-22.04 -wsl_instances_path C:\Users\mason\Desktop\wsl-instances -create
 ```
 
 Then you could do some configuration with `clean-ubuntu-22.04` like configuring the `wsl.conf` file to make it easier to work with (or whatever configuration you want). For example:
@@ -38,7 +38,7 @@ systemd = true
 Then you could run the script again with `clean-ubuntu-22.04` as the `target_distribution`
 
 ```
-.\manage-wsl.ps1 -target_distribution clean-ubuntu-22.04 -instance_name dev1 -wsl_instances_path C:\Users\mason\OneDrive\Desktop\wsl-instances -create
+.\manage-wsl.ps1 -target_distribution clean-ubuntu-22.04 -instance_name dev1 -wsl_instances_path C:\Users\mason\Desktop\wsl-instances -create
 ```
 
 ## Deleting a Development envrionment
@@ -52,11 +52,11 @@ To delete an existing environment, the general form of the command is:
 For example:
 
 ```
-.\manage-wsl.ps1 -instance_name dev1 -wsl_instances_path C:\Users\mason\OneDrive\Desktop\wsl-instances -delete
+.\manage-wsl.ps1 -instance_name dev1 -wsl_instances_path C:\Users\mason\Desktop\wsl-instances -delete
 ```
 
 and:
 
 ```
-.\manage-wsl.ps1 -instance_name clean-ubuntu-22.04 -wsl_instance_path C:\Users\mason\OneDrive\Desktop\wsl-instances -delete
+.\manage-wsl.ps1 -instance_name clean-ubuntu-22.04 -wsl_instance_path C:\Users\mason\Desktop\wsl-instances -delete
 ```
